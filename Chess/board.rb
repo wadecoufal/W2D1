@@ -37,7 +37,6 @@ class Board
     raise "That's the same spot!" if start_pos == end_pos
     self[end_pos] = self[start_pos]
     self[start_pos] = nil
-
   end
 
 
